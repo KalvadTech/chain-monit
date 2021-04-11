@@ -4,7 +4,7 @@ Chain Monitor is a simple API to forward some information from nodlechain to the
 
 ## Installation
 
-- Install crystal (```yay -S crystal```)
+- Install crystal (```yay -S shards crystal```)
 - ```shards install```
 
 ## Usage
