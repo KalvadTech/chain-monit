@@ -1,0 +1,19 @@
+name: chain-monitor
+version: 0.1.0
+
+authors:
+  - Loïc Tosser <loic@kalvad.com>
+
+targets:
+  chain-monitor:
+    main: src/chain-monitor.cr
+
+crystal: 1.0.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  crest:
+    github: mamantoha/crest
