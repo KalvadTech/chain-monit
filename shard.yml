@@ -1,5 +1,5 @@
 name: chain-monitor
-version: 0.1.0
+version: "0.1.0"
 
 authors:
   - Loïc Tosser <loic@kalvad.com>
@@ -8,7 +8,7 @@ targets:
   chain-monitor:
     main: src/chain-monitor.cr
 
-crystal: 1.0.0
+crystal: "1.0.0"
 
 license: MIT
 
