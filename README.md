@@ -18,4 +18,3 @@ then ```curl http://127.0.0.1:3000```
 ```
 crystal run src/chain-monitor.cr
 ```
-
