@@ -27,7 +27,7 @@ get "/" do |env|
   if percentSynced < 0.99
     env.response.status_code = 425
   end
-  if (isSyncing == false) || (peers < 5) || (shouldHavePeers == false)
+  if (peers < 5) || (shouldHavePeers == false)
     env.response.status_code = 500
   end
   {
