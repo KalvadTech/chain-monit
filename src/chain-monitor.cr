@@ -25,9 +25,6 @@ get "/" do |env|
   env.response.content_type = "application/json"
   percentSynced = currentBlock/highestBlock*100
   if percentSynced < 0.99
-    env.response.status_code = 425
-  end
-  if (peers < 5) || (shouldHavePeers == false)
     env.response.status_code = 500
   end
   {
